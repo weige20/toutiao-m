@@ -16,6 +16,6 @@ module.exports = {
     'vue/multi-word-component-names': ['error', {
       ignores: ['index']
     }],
-    camelcase: 'off' // 关闭_定义变量的检查
+    camelcase: 'off'// 关闭_定义变量的检查
   }
 }

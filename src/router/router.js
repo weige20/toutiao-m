@@ -23,9 +23,25 @@ const routes = [
     ]
   },
   {
+    path: '/article_detail',
+    component: () => import('@/views/ArticleDetail')
+  },
+  {
+    path: '/search',
+    component: () => import('@/views/Search')
+  },
+  {
+    path: '/search/:keywords',
+    component: () => import('@/views/Search/SearchResult.vue')
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('@/views/Login')
+  },
+  {
+    path: '/user_editor',
+    component: () => import('@/views/User/UserEdit.vue')
   }
 ]
 
